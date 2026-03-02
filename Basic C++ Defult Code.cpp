@@ -3,9 +3,9 @@
 
 int main()
 {
-    int value = 5;
+    int value = 5; // Stack Allocation
     
-    int* hvalue = new int;
+    int* hvalue = new int; // Heap Allocation
     *hvalue = 5;
 
     std::cin.gen()
